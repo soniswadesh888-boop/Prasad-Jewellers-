@@ -4,146 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prasad Jewellers</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      text-align: center;
-    }
-    header {
-      background: gold;
-      color: black;
-      padding: 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    main {
-      margin: 50px auto;
-      max-width: 600px;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #333;
-      margin-bottom: 15px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      margin: 20px auto;
-      border-radius: 10px;
-    }
-    p {
-      font-size: 18px;
-      color: #555;
-      line-height: 1.6;
-    }
-    footer {
-      background: #222;
-      color: white;
-      padding: 15px;
-      margin-top: 40px;
-    }
-    .download-btn {
-      display: inline-block;
-      padding: 12px 20px;
-      background: #28a745;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 18px;
-      font-weight: bold;
-      transition: 0.3s;
-      margin: 10px 5px;
-      cursor: pointer;
-    }
-    .download-btn:hover {
-      background: #218838;
-    }
-    .info-btn {
-      background: #007bff;
-    }
-    .info-btn:hover {
-      background: #0056b3;
-    }
-    ul {
-      font-size: 18px;
-      text-align: left;
-      margin-top: 20px;
-    }
-
-    /* ✅ Slide Animation CSS */
-    #install-guide {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s ease-out, padding 0.5s ease-out;
-      background: #f1f1f1;
-      border-radius: 8px;
-      margin-top: 15px;
-      padding: 0 15px;
-    }
-    #install-guide.open {
-      max-height: 500px; /* जितना बड़ा कंटेंट हो उतना height देना */
-      padding: 15px;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    💎 PRASAD JEWELLERS 💎
-  </header>
+  <h1>💎 PRASAD JEWELLERS 💎</h1>
 
-  <main>
-    <h1>Welcome to Prasad Jewellers</h1>
-    <h1>प्रसाद ज्वैलर्स में आपका स्वागत है</h1>
+  <h2>Welcome to Prasad Jewellers</h2>
+  <h2>प्रसाद ज्वैलर्स में आपका स्वागत है</h2>
 
-    <img src="IMG-20250616-WA0060.jpg" alt="प्रसाद ज्वेलर्स">
+  <img src="IMG-20250616-WA0060.jpg" alt="प्रसाद ज्वेलर्स" width="300">
 
-    <!-- ✅ Buttons -->
-    <button class="download-btn info-btn" onclick="toggleGuide()">ℹ️ How to Install App</button>
-    <a href="https://github.com/soniswadesh888-boop/Prasad-Jewellers-/releases/download/v1.0/PrasadJewellers-debug_src.apk" 
-       download class="download-btn">📥 Download Prasad Jewellers App</a>
+  <h3>📲 App इंस्टॉल करने का तरीका</h3>
+  <ul>
+    <li>Download Button पर क्लिक करें।</li>
+    <li>APK फाइल मोबाइल में डाउनलोड होगी।</li>
+    <li>डाउनलोड होने के बाद फाइल खोलें।</li>
+    <li>अगर “Unknown Sources” का मैसेज आए तो Settings → Security → Allow Unknown Sources को चालू करें।</li>
+    <li>Install पर क्लिक करें।</li>
+    <li>कुछ सेकंड बाद App इंस्टॉल हो जाएगा।</li>
+  </ul>
 
-    <!-- ✅ Hidden Install Guide -->
-    <div id="install-guide">
-      <h1>📲 Prasad Jewellers App इंस्टॉल करने का तरीका</h1>
-      <ul>
-        <li>नीचे दिए गए <b>Download Button</b> पर क्लिक करें।</li>
-        <li>APK फाइल आपके मोबाइल में डाउनलोड हो जाएगी।</li>
-        <li>डाउनलोड होने के बाद उस फाइल को खोलें।</li>
-        <li>अगर “Unknown Sources” का मैसेज आए तो <b>Settings → Security → Allow Unknown Sources</b> को चालू करें।</li>
-        <li>Install पर क्लिक करें।</li>
-        <li>कुछ सेकंड बाद App इंस्टॉल हो जाएगा और आप उसे खोल सकते हैं।</li>
-      </ul>
-    </div>
+  <p>
+    <a href="https://github.com/soniswadesh888-boop/Prasad-Jewellers-/releases/download/v1.0/PrasadJewellers-debug_src.apk" download>
+      📥 Download App
+    </a>
+  </p>
 
-    <p>यहाँ आपको बेहतरीन सोने-चाँदी के आभूषण मिलेंगे।</p>
+  <p>यहाँ आपको बेहतरीन सोने-चाँदी के आभूषण मिलेंगे।</p>
 
-    <p><b>📍 Address:</b><br>
-      भारत, झारखंड, जिला-गिरीडी, प्रखंड-सरिया, पंचायत-कुसमार्जा<br>
-      चिचाकी रोड, कुसर्मजा, बीच बाजार<br>
-      नज़दीकी पहचान: नाई की दुकान & दर्जी की दुकान
-    </p>
+  <p><b>📍 Address:</b><br>
+    भारत, झारखंड, जिला-गिरीडी, प्रखंड-सरिया, पंचायत-कुसमार्जा<br>
+    चिचाकी रोड, कुसर्मजा, बीच बाजार<br>
+    नज़दीकी पहचान: नाई की दुकान & दर्जी की दुकान
+  </p>
 
-    <p><b>📞 Contact:</b><br>
-      +91-9905586218<br>
-      +91-9631047953
-    </p>
-  </main>
+  <p><b>📞 Contact:</b><br>
+    +91-9905586218<br>
+    +91-9631047953
+  </p>
 
   <footer>
     © 2025 Prasad Jewellers | All Rights Reserved
   </footer>
-
-  <script>
-    function toggleGuide() {
-      const guide = document.getElementById("install-guide");
-      guide.classList.toggle("open");
-    }
-  </script>
 </body>
 </html>
